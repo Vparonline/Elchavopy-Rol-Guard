@@ -1,0 +1,28 @@
+{
+    "Class": {
+        "Token": "",
+        "Activity": "Elchavopy Season v12 Guard",
+        "Status": "online",
+        "nobodybaşedemez": [],
+        "Prefix": ".",
+        "Mongo": ""
+    },
+
+    "Logger": {
+        "GLogger": "",
+        "WebLogger": ""
+    },
+
+    "Perm": {
+        "Level": "0"
+    },
+
+    "Channels":{
+        "Voice": ""
+    },
+    
+    "Data": {
+        "GuildID": ""
+    }
+
+}
