@@ -8,10 +8,8 @@ const userRoles = require('./userRoles.js');
 const fs = require('fs');
 const client1 = global.client;
 mongoose.connect(set.Class.Mongo, {  useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false, });
+client.nobodybaşedemez = ["838931132581281813"] 
 
-//////////////////////////LİMİT////////////////////////////////////////////////////////////////////////////////////////////////
-client.nobodybaşedemez = ["838931132581281813"] //////////////////// OWNERS
-client.banLimit = new Map()
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 client.on("ready", () => {
     client.user.setActivity(set.Class.Activity);
